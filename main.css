@@ -179,6 +179,51 @@ main
 
 /*##############################################################################*/
 
+/*Sessão Formulário(Form)*/
+#Form
+{
+    margin-top: 100px;
+    margin-left: 180px;
+    padding-bottom: 70px;   
+}
+#Form .container form input,
+#Form .container form textarea,
+#Form .container form button
+{
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 320px
+}
+#Form .container h2
+{
+    font-size: 32px;
+}
+#Form .container form textarea
+{
+    resize: none;
+}
+#Form .container form button
+{
+
+    background-color: #f9d43f;
+    padding: 10px 100px;
+    cursor: pointer;
+    height: 60px;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 32px;
+}
+#Form .container form button:hover
+{
+    background-color: #CBAB2E;
+}
+#Form form input:focus, #Form form textarea:focus
+{
+    outline-color: #f9d43f;
+}
+
+
+/*##############################################################################*/
+
 /*Configurações do Rodapé*/
 footer
 {
